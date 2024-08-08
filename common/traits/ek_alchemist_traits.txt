@@ -1,0 +1,35 @@
+﻿@pos_compat_high = 30
+@pos_compat_medium = 15
+@pos_compat_low = 5
+
+@neg_compat_high = -30
+@neg_compat_medium = -15
+@neg_compat_low = -5
+
+alchemist = {
+	category = lifestyle
+
+	learning = 2
+	intrigue = 2
+
+	culture_modifier = {
+		parameter = alchemist_trait_prestige
+		monthly_prestige = 0.5
+	}
+	
+	ruler_designer_cost = 50
+	
+	ai_rationality = 10
+	ai_energy = 5
+
+	compatibility = {
+		lifestyle_herbalist = @neg_compat_low
+		lifestyle_mystic = @pos_compat_medium
+		whole_of_body = @pos_compat_low
+		scholar = @pos_compat_low
+		theologian = @pos_compat_low
+		zealous = @neg_compat_low
+		lifestyle_gardener = @pos_compat_medium
+
+	}
+}

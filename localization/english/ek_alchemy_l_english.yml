@@ -1,0 +1,15 @@
+﻿l_english:
+ alchemy_name:0 "Alchemy"
+ herbalist_perk_name:0 "Herbalist"
+ forager_perk_name:0 "Forager"
+ metallurgist_perk_name:0 "Metallurgist"
+ experimenter_perk_name:0 "Experimenter"
+ benefactor_perk_name:0 "Benefactor"
+ poisoner_perk_name:0 "Poisoner"
+ physician_perk_name:0 "Physician"
+ purity_perk_name:0 "Purity"
+ alchemist_perk_name:0 "Alchemist"
+
+ trait_alchemist:0 "Alchemist"
+ trait_alchemist_desc:0 "Bend the elements to your will and create poisons, potions and elixirs."
+ culture_parameter_alchemist_trait_prestige:1 "The [GetTrait('alchemist').GetName( GetNullCharacter )] [trait|E] provides a [prestige_i][prestige|E] bonus"

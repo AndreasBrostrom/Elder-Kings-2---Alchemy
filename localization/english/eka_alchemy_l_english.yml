@@ -15,7 +15,9 @@ l_english:
 
  trait_alchemist_master:0 "Master Alchemist"
  trait_alchemist_master_desc:0 "Mastered the art of bending the elements to your will and the ability to create poisons, potions and elixirs."
-
+ 
+ culture_parameter_alchemist_trait_prestige:1 "The [GetTrait('alchemist').GetName( GetNullCharacter )] [trait|E] provides a [prestige_i][prestige|E] bonus"
+ 
  court_position_alchemist_trait:0 "[GetTrait('lifestyle_alchemist').GetName( ROOT.Char )]"
  court_position_herbalist_perk:0 "[GetPerk('herbalist_perk').GetName( ROOT.Char )]" 
  court_position_forager_perk:0 "[GetPerk('forager_perk').GetName( ROOT.Char )]" 

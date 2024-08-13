@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  alchemy_name:0 "Alchemy"
  herbalist_perk_name:0 "Herbalist"
  forager_perk_name:0 "Forager"
@@ -13,3 +13,15 @@
  trait_alchemist:0 "Alchemist"
  trait_alchemist_desc:0 "Bend the elements to your will and create poisons, potions and elixirs."
  culture_parameter_alchemist_trait_prestige:1 "The [GetTrait('alchemist').GetName( GetNullCharacter )] [trait|E] provides a [prestige_i][prestige|E] bonus"
+
+ court_position_alchemist_trait:0 "[GetTrait('lifestyle_alchemist').GetName( ROOT.Char )]"
+ court_position_herbalist_perk:0 "[GetPerk('herbalist_perk').GetName( ROOT.Char )]" 
+ court_position_forager_perk:0 "[GetPerk('forager_perk').GetName( ROOT.Char )]" 
+ court_position_metallurgist_perk:0 "[GetPerk('metallurgist_perk').GetName( ROOT.Char )]" 
+ court_position_alchemist_perk:0 "[GetPerk('alchemist_perk').GetName( ROOT.Char )]" 
+ court_position_benefactor_perk:0 "[GetPerk('benefactor_perk').GetName( ROOT.Char )]" 
+ court_position_poisoner_perk:0 "[GetPerk('poisoner_perk').GetName( ROOT.Char )]" 
+ court_position_physician_perk:0 "[GetPerk('physician_perk').GetName( ROOT.Char )]" 
+ court_position_purity_perk:0 "[GetPerk('purity_perk').GetName( ROOT.Char )]" 
+ court_position_master_alchemist_perk:0 "[GetPerk('master_alchemist_perk').GetName( ROOT.Char )]" 
+  

@@ -5,7 +5,7 @@ remoteFileID="3305060766"
 releaseFolder="release"
 outFolder=".out"
 
-rm -r $releaseFolder
+[ -d "$releaseFolder" ] && rm -r $releaseFolder
 
 mkdir -p "$outFolder"
 mkdir -p "$releaseFolder"
@@ -29,4 +29,5 @@ mv "$outFolder" "$releaseFolder/."
 cd $releaseFolder
 mv "$outFolder" "$name"
 
-zip -r "$name.zip" "$name"
+zipName=$(echo "$name-v$1" | sed -e "s/ //g")
+zip -r "$zipName.zip" "$name"

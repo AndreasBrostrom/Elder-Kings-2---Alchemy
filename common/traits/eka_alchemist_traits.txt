@@ -14,6 +14,33 @@ alchemist = {
 
 	culture_modifier = {
 		parameter = alchemist_trait_prestige
+		monthly_prestige = 0.25
+	}
+	
+	ruler_designer_cost = 50
+	
+	ai_rationality = 10
+	ai_energy = 5
+
+	compatibility = {
+		lifestyle_herbalist = @neg_compat_low
+		lifestyle_mystic = @pos_compat_medium
+		whole_of_body = @pos_compat_low
+		scholar = @pos_compat_low
+		theologian = @pos_compat_low
+		zealous = @neg_compat_low
+		lifestyle_gardener = @pos_compat_medium
+	}
+}
+
+alchemist_master = {
+	category = lifestyle
+
+	learning = 4
+	intrigue = 4
+
+	culture_modifier = {
+		parameter = alchemist_trait_prestige
 		monthly_prestige = 0.5
 	}
 	
@@ -30,6 +57,5 @@ alchemist = {
 		theologian = @pos_compat_low
 		zealous = @neg_compat_low
 		lifestyle_gardener = @pos_compat_medium
-
 	}
 }

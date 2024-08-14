@@ -407,16 +407,23 @@ court_mage_position = {
 		}
 		# EKA ALCHEMY EDIT
 		if = {
-			limit = { has_trait = alchemist }
+			limit = { has_trait = alchemist_novice }
 			add = {
 				value = 2
 				desc = court_position_alchemist_trait
 			}
 		}
 		if = {
-			limit = { has_trait = alchemist_master }
+			limit = { has_trait = alchemist_expert }
 			add = {
 				value = 4
+				desc = court_position_alchemist_trait
+			}
+		}
+		if = {
+			limit = { has_trait = alchemist_master }
+			add = {
+				value = 6
 				desc = court_position_alchemist_trait
 			}
 		}
@@ -639,7 +646,14 @@ court_physician_court_position = {
 		# EKA ALCHEMY EDIT
 		# Alchemist
 		if = {
-			limit = { has_trait = alchemist }
+			limit = { has_trait = alchemist_novice }
+			add = {
+				value = 5
+				desc = court_position_alchemist_trait
+			}
+		}
+		if = {
+			limit = { has_trait = alchemist_expert }
 			add = {
 				value = 10
 				desc = court_position_alchemist_trait
@@ -648,7 +662,7 @@ court_physician_court_position = {
 		if = {
 			limit = { has_trait = alchemist_master }
 			add = {
-				value = 20
+				value = 15
 				desc = court_position_alchemist_trait
 			}
 		}
